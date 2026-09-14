@@ -29,11 +29,13 @@ husband(S, X):-
 sister(S, X):-
     female(S),
     parent(P, S),
-    parent(P, X).
+    parent(P, X), 
+    X /= S.
 brother(S, X):-
     male(S),
     parent(P, S),
-    parent(P,X).
+    parent(P,X),
+    X /= S.
 daughter(S, X):-
     female(S),
     parent(X, S).
