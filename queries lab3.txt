@@ -35,3 +35,9 @@ true .
 Correct to: "brother(faisal,reema)"? 
 Please answer 'y' or 'n'? yes
 true .
+1 ?- father(mohammed, faisal).
+true.
+
+32 ?- mother(hessa, faisal).
+true.
+
