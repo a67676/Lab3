@@ -1,0 +1,37 @@
+19 ?- wife(hessa, mohammed).
+true.
+
+20 ?- wife(nora, faisal).
+true.
+
+21 ?- wife(reema, faisal).
+false.
+
+22 ?- daughter(sara, nora).
+true.
+
+23 ?- daughter(nora, hessa).
+false.
+
+24 ?- daughter(jana, reema).
+true.
+
+25 ?- daughter(jana, khalid).
+true.
+
+26 ?- son(faisal, hessa).
+true.
+
+27 ?- son(reema, hessa).
+false.
+
+28 ?- husband(faisal, nora).
+true.
+
+29 ?- sister(reema, faisal).
+true .
+
+30 ?- brpther(faisal, reema).
+Correct to: "brother(faisal,reema)"? 
+Please answer 'y' or 'n'? yes
+true .
